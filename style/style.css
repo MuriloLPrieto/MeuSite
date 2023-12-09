@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Silkscreen';
+    src: url(../fonts/Silkscreen/Silkscreen-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+
+:root
+{
+    --cor1: #9cbdff;
+    --cor2: #a7c3fc;
+    --cor3: #2B65D9;
+    --cor4: #283959;
+    --cor5: #1E2620;
+
+    --default-font: arial, sans-serif;
+    --decorative-font: 'Silkscreen', serif;
+
+    --default-min-size: 400px;
+    --default-max-size: 1000px; 
+}
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+header{
+    color: white;
+    min-height: 120px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+}
+
+header>h1{
+    font-family: var(--default-font);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+}
+
+header>p{
+    color: white;
+    font-family: var(--default-font);
+    font-size: 1.3em;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 35px;
+    padding: 0px 10px 0px 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 810px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.600);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    font-family: var(--fonte-android);
+    color: var(--cor5);
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+main h2{
+    font-family: var(--default-font);
+    color: var(--cor4);
+    font-weight: normal;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    text-indent: 10px;
+}  
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+main a{
+    background-color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 2px 5px;
+}
+
+picture{
+    display: flex;
+    margin: auto; 
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor1);
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white !important;
+}
+
+li{
+    list-style-type: numeric;
+}
+
+.lista{
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
