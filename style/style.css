@@ -56,11 +56,11 @@ header>p{
 main{
     background-color: white;
     min-width: 300px;
-    max-width: 810px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.600);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.400);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -73,6 +73,7 @@ main h1{
 }
 
 main h2{
+    margin-top: 10px;
     font-family: var(--default-font);
     color: var(--cor4);
     font-weight: normal;
@@ -87,6 +88,7 @@ main p{
     text-indent: 20px;
     line-height: 1.5em;
     font-size: 1em;
+    margin-bottom: 20px;
 }
 
 main strong{
@@ -117,7 +119,7 @@ a{
 
 a:hover{
     text-decoration: underline;
-    color: white !important;
+    color: white;
 }
 
 li{
@@ -128,4 +130,17 @@ li{
     text-align: center;
     padding: 5px;
     margin: auto;
+    list-style-position: inside;
+}
+
+#about{
+    margin-bottom: 35px;
+}
+
+#selfie{
+    font-size: xx-small;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 5px;
 }
